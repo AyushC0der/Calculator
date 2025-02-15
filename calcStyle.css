@@ -10,10 +10,11 @@ body{
 
     background: rgb(133, 133, 133);
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center; 
-    border: 2px solid #99999966;
+    border: 2px solid rgb(129, 129, 129); /* Subtle border */
+    border-radius: 12px;
     box-shadow: 
         5px 5px 10px rgba(0, 0, 0, 0.3),
         inset -5px -5px 10px rgba(0, 0, 0, 0.2),
@@ -22,13 +23,13 @@ body{
 
 
 #opr{
-    border: 2px green;
+    border: 2px ghostwhite;
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 18px;
     cursor: pointer;
 
-    background-color: brown;
+    background-color:lightslategray;
 
     box-shadow: 
         5px 5px 10px rgba(0, 0, 0, 0.3),
@@ -37,17 +38,17 @@ body{
 
 }
 #opr:hover{
-    background-color: blueviolet;
+    background-color:gainsboro;
 }
 
 #num{
-    border: 2px green;
+    border: 2px black;
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 18px;
     cursor: pointer;
 
-    background-color: crimson;
+    background-color:seagreen;
 
     box-shadow: 
         5px 5px 10px rgba(0, 0, 0, 0.3),
@@ -55,17 +56,17 @@ body{
         inset 5px 5px 10px rgba(255, 255, 255, 0.5);
 }
 #num:hover{
-    background-color: aquamarine;
+    background-color:teal;
 }
 
 #eql{
-    border: 2px green;
+    border: 2px orchid;
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 18px;
     cursor: pointer;
 
-    background-color:darkslategray;
+    background-color:cornflowerblue;
 
     box-shadow: 
         5px 5px 10px rgba(0, 0, 0, 0.3),
@@ -73,10 +74,10 @@ body{
         inset 5px 5px 10px rgba(255, 255, 255, 0.5);
 }
 #eql:hover{
-    background-color:gold;
+    background-color:lightblue;
 }
 #bck{
-    border: 2px green;
+    border: 2px brown;
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 18px;
@@ -90,14 +91,31 @@ body{
         inset 5px 5px 10px rgba(255, 255, 255, 0.5);
 }
 #bck:hover{
-    background-color:goldenrod;
+    background-color:lightblue;
 }
 
+#clr{
+    border: 2px brown;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+
+    background-color:salmon;
+
+    box-shadow: 
+        5px 5px 10px rgba(0, 0, 0, 0.3),
+        inset -5px -5px 10px rgba(0, 0, 0, 0.2),
+        inset 5px 5px 10px rgba(255, 255, 255, 0.5);
+}
+#clr:hover{
+    background-color:rosybrown;
+}
 
 .TBox_{
     padding: 10px 100px;
-    background-color: azure;
-    border: 2px solid #999; /* Subtle border */
+    background-color:rgba(215, 207, 207, 0.834);
+    border: 2px solid rgba(0, 0, 0, 0.433); /* Subtle border */
     border-radius: 5px;
     box-shadow: 
         inset 3px 3px 5px rgba(0, 0, 0, 0.2), /* Inner shadow for recessed effect */

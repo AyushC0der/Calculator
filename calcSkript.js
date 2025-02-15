@@ -13,14 +13,15 @@ var butt = document.querySelector("input").value;
 
 function Operator(opr)
 {
+    txt.style.color = "black";
     broken = true;
     textbox = [];
-    txt.textContent = "";
+    txt.textContent = "0";
     oper = opr;
 }
 
 function Number(num) {
-    
+    txt.style.color = "black";
     textbox.push(num);
 
     // Convert textbox to a string
@@ -57,10 +58,12 @@ function Number(num) {
 
 function BACK()
 {
+    txt.style.color = "black";
     backPr = true;
 }
 function EQUAL()
 {   
+    txt.style.color = "black";
     var result;
     console.log("num1: " + String(num1));
     console.log("num2: " + String(num2));
@@ -84,9 +87,21 @@ function EQUAL()
     }
 
     txt.textContent = result;
+    txt.style.color = "brown";
     num1 = 0;
     num2 = 0;
     broken = false;
     textbox = [];
     oper = "";
+}
+
+function CLEAR(){
+    txt.style.color = "black";
+    txt.textContent = "0";
+    num1 = 0;
+    num2 = 0;
+    broken = false;
+    textbox = [];
+    oper = "";
+
 }
