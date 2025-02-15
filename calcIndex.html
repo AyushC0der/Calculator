@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="calcStyle.css">
+</head>
+<body>
+    <div class="Calc_">
+        <div class="TBox_" id="TBox">
+            <p id="textCnt">5000</p>
+        </div>
+        <br><br>
+        <div class="ButCol_">
+            <input type="button" value="+" id="opr" onclick="Operator('+')">
+            <input type="button" value="-" id="opr" onclick="Operator('-')">
+            <input type="button" value="*" id="opr" onclick="Operator('*')">
+            <input type="button" value="/" id="opr" onclick="Operator('/')">
+        </div>
+        <br>
+        <div class="ButCol_">
+            <input type="button" value="=" id="eql" onclick="EQUAL()">
+            <input type="button" value="<" id="bck" onclick="BACK()">
+        </div>
+        <br>
+        <div class="ButCol_">
+            <input type="button" value="1" id="num" onclick="Number(1)">
+            <input type="button" value="2" id="num" onclick="Number(2)">
+            <input type="button" value="3" id="num" onclick="Number(3)">
+        </div>
+        <br>
+        <div class="ButCol_">
+            <input type="button" value="4" id="num" onclick="Number(4)">
+            <input type="button" value="5" id="num" onclick="Number(5)">
+            <input type="button" value="6" id="num" onclick="Number(6)">
+        </div>
+        <br>
+        <div class="ButCol_">
+            <input type="button" value="7" id="num" onclick="Number(7)">
+            <input type="button" value="8" id="num" onclick="Number(8)">
+            <input type="button" value="9" id="num" onclick="Number(9)">
+        </div>
+        <br>
+        <div class="ButCol_">
+            <input type="button" value="0" id="num" onclick="Number(0)">
+        </div>
+    </div>
+    <script src="calcSkript.js"></script>
+</body>
+</html>
